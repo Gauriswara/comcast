@@ -8,11 +8,11 @@ public class Taxperson
      double totalcost;  
      if (itemtype = "necessaryitem")
      {
-      totalcost = cost+ (.01 *cost);
+      totalcost = cost+ (.01 * cost);
      }
      else if (itemtype = "luxuryitem")
     {
-       totalcost = cost+(.09*cost);
+       totalcost = cost+(.09 * cost);
     }
      
      return totalcost;   
